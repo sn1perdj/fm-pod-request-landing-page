@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --medium-aquamarine-green: #54e6af;
+    --japanese-indigo: #2c344b;
+    --eerie-black: #121725;
+    --white: #ffffff;
+    --ucla-blue: #5a668a;
+    --periwinkle-crayola: #c2cbe5;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Chivo';
+    height: 100dvh;
+    height: 100vh;
+}
+
+.navbar {
+    min-height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile__img {
+    position: absolute;
+    height: 100dvh;
+    height: 100vh;
+    /* z-index: -1; */
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.wrapper {
+    background-color: var(--eerie-black);
+    height: 100dvh;
+    height: 100vh;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.container {
+    padding: 0 24px;
+}
+
+.header {
+    color: var(--medium-aquamarine-green);
+}
+
+.header span {
+    color: var(--white);
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero {
+    margin-top: 1em;
+}
+
+.hero p {
+    color: var(--periwinkle-crayola);
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.brands__logo {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.brands__logo img {
+    color: var(--ucla-blue);
+}
+
+.item1 > img {
+    width: 56px;
+    height: 17px;
+}
+
+.item2 > img {
+    width: 45px;
+    height: 17px;
+}
+
+.item3 > img {
+    width: 73px;
+    height: 11px;
+}
+
+.item4 > img {
+    width: 77px;
+    height: 15px;
+}
+
+form {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+input {
+    height: 46px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 28px;
+    background-color: var(--japanese-indigo);
+}
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--white);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+
+input:nth-child(2) {
+    height: 46px;
+    color: var(--eerie-black);
+    width: 100%;
+    border: none;
+    background-color: var(--medium-aquamarine-green);
+    border-radius: 28px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 28px;
+}
