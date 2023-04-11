@@ -13,9 +13,11 @@
 
 <body>
   <img class="mobile__img" src="./assets/mobile/image-host.jpg" alt="bgc__img">
-
+  <img class="tablet__img" src="./assets/tablet/image-host.jpg" alt="tab__bgc__img">
+  <img class="desktop__img" src="./assets/desktop/image-host.jpg" alt="desktop__img">
+  
   <div class="wrapper">
-
+    
     <nav class="navbar">
       <img src="./assets/desktop/logo.svg" alt="logo">
     </nav>
@@ -40,10 +42,17 @@
 
       <form action="GET">
         <input type="email" placeholder="Email address">
-        <input type="submit" value="Request Access">
+        <button type="submit" id="submit-btn">
+          <span>Request Access</span>
+        </button>
+        <p class="error__msg">Oops ! Please check your email.</p>
       </form>
       
+      <img class="dots__pattern1" src="./assets/desktop/bg-pattern-dots.svg" alt="pattern">
     </main>
+
+    <img class="dots__pattern2" src="./assets/desktop/bg-pattern-dots.svg" alt="pattern">
+
   </div>
 </body>
 
